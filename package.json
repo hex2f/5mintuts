@@ -1,0 +1,19 @@
+{
+  "name": "5min_chat",
+  "version": "1.0.0",
+  "description": "A chat application made in 5 minutes using web and node.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rekkyrek/5mintuts.git"
+  },
+  "author": "RekkyRek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rekkyrek/5mintuts/issues"
+  },
+  "homepage": "https://github.com/rekkyrek/5mintuts#readme"
+}
