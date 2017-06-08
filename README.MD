@@ -5,6 +5,9 @@ In this tutorial we will cover how to:
 * Setup a web server using nodejs and expressjs.
 * Reading from disk using the built in node package: fs.
 * Sending and reciving data in realtime using socketio.
+
+# Demo
+![Chat Demo GIF](https://github.com/RekkyRek/5mintuts/blob/01_NodeChat/chat_demo.gif?raw=true)
 # Stages
 ### Project Setup
 1. Initialize NPM ```npm init```
