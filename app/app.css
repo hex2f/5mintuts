@@ -1,0 +1,73 @@
+@keyframes cardIn {
+    0% {
+        transform: translateY(12px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#topbar {
+    padding: 18px 12px;
+    background: #f2f2f2;
+}
+
+#messages {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.message {
+    background: #e6e5ea;
+    padding: 12px;
+    margin: 8px;
+    width: 100vw;
+    max-width: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 12px;
+
+    animation: cardIn 0.15s ease-in-out forwards;
+}
+
+.message p {
+    margin: 0px;
+    font-weight: 400;
+}
+
+.mine {
+    background: linear-gradient(to top, #027df9 0%,#4199e7 100%);
+    color: #f5f5f5;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 3px;
+    align-self: flex-end;
+}
+
+.mine p {
+    font-weight: 300;
+}
+
+input {
+    margin: 12px;
+    padding: 12px;
+    border: solid 1px #cccccc;
+    border-radius: 8px;
+}
